@@ -86,31 +86,22 @@ I like building projects that are not only technically solid, but also useful fo
 
 ### 🏠 [Belgian Real Estate ML Pipeline](https://github.com/JonbeshAhmadzai/Immovlan-Price-Prediction)
 
-**Python · Pandas · Scikit-learn · XGBoost · CatBoost · Geo Features**
+**Python · Scikit-learn · XGBoost · CatBoost**
 
-End-to-end machine learning project for Belgian property price prediction using **23,000+ Immovlan listings**. Includes data preprocessing, geolocation enrichment, distance-based features, feature engineering, model comparison, hyperparameter tuning, and saved ML pipelines.
+Built an end-to-end ML pipeline using **23,000+ Belgian property listings** with feature engineering, model comparison, and CatBoost as the best model.
 
-**Highlights:**
-- Compared Linear Regression, Random Forest, XGBoost, LightGBM, and CatBoost
-- Best model: **CatBoost Regressor**
-- Final results: **R² 0.786 · MAE €74,252 · RMSE €125,618**
-- Key predictors: living area, location, land surface, number of rooms, building state
+**Key result:** R² 0.786 · MAE €74K
 
 </td>
 <td width="50%">
 
 ### ⚡ [Real Estate Price API](https://github.com/JonbeshAhmadzai/Real-estate-price-api)
 
-**FastAPI · Docker · CatBoost · Render · Pydantic**
+**FastAPI · Docker · CatBoost · Render**
 
-Production-style API that serves the trained Belgian real estate price prediction model. This is the deployment layer of the full project pipeline: scraping → cleaning → analysis → feature engineering → model training → API → deployment.
+Deployed the real estate price prediction model as a production-style REST API with validation, Docker containerization, and live API docs.
 
-**Highlights:**
-- FastAPI backend with strict Pydantic validation
-- Dockerized deployment on Render
-- Live API documentation through `/docs`
-- Uses the CatBoost pipeline trained in the ML project
-- Demonstrates model serving, input validation, and cloud deployment
+**Focus:** ML model serving + API deployment
 
 </td>
 </tr>
@@ -119,32 +110,22 @@ Production-style API that serves the trained Belgian real estate price predictio
 
 ### 🕷️ [Immovlan Web Scraper](https://github.com/JonbeshAhmadzai/Immovlan-Scraper)
 
-**Python · Requests · BeautifulSoup · Pandas · Multi-threading**
+**Python · Requests · BeautifulSoup · Pandas**
 
-Production-ready web scraping pipeline that collects structured real estate data from Immovlan across **all 11 Belgian provinces** for houses and apartments listed for sale.
+Built a scraper to collect Belgian property listings across provinces, handle pagination limits, clean fields, and export an ML-ready dataset.
 
-**Highlights:**
-- Multi-threaded link collection and detail scraping
-- Province + price-range segmentation to bypass the 50-page search limit
-- Outputs `links.csv` and an analysis-ready `immovlan_dataset.csv`
-- Handles removed listings, timeouts, missing fields, and normalized schema
-- Demonstrates real-world data acquisition and resilient pipeline design
+**Focus:** real-world data collection pipeline
 
 </td>
 <td width="50%">
 
 ### 🌾 [Satellite Crop Classification](https://github.com/JonbeshAhmadzai/Crop-Classification-)
 
-**Python · Sentinel-2 · Copernicus STAC API · Azure Blob Storage · GeoPandas · Random Forest**
+**Python · Sentinel-2 · Azure · GeoPandas · Random Forest**
 
-Geospatial machine learning pipeline for crop type classification using Sentinel-2 L2A satellite imagery, parcel training data, spectral indices, and Random Forest modeling.
+Created a geospatial ML pipeline using Sentinel-2 imagery, spectral indices, Azure storage, and Random Forest classification.
 
-**Highlights:**
-- Downloads Sentinel-2 scenes from Copernicus Data Space
-- Stores imagery bands in Azure Blob Storage
-- Builds monthly cloud-masked composites
-- Creates a **117-feature spectral stack** using bands + NDVI, NDWI, and NDBI
-- Exports GeoTIFF crop classification maps and PNG reporting outputs
+**Focus:** satellite data + crop classification maps
 
 </td>
 </tr>
@@ -153,31 +134,22 @@ Geospatial machine learning pipeline for crop type classification using Sentinel
 
 ### 🍺 [Dragonyte Brewery BI Case Study](https://github.com/JonbeshAhmadzai/Dragonyte-Brewery-PowerBI-CaseStudy)
 
-**Power BI · DAX · Power Query · Star Schema · Business Intelligence**
+**Power BI · DAX · Power Query · Star Schema**
 
-Business intelligence case study provided through **BeCode × Accenture Belgium**, focused on Dragonyte Brewery’s market performance, growth opportunities, competitive position, and channel strategy.
+Designed an executive BI dashboard for a BeCode × Accenture Belgium business case, including market performance and strategic recommendations.
 
-**Highlights:**
-- Star-schema model with fact and dimension tables
-- 15+ DAX measures including YoY growth, CAGR, market share, pricing metrics, and global rank
-- 4-page executive dashboard: overview, growth opportunities, competitive position, and channel strategy
-- Presented strategic recommendations to Accenture Belgium professionals
+**Focus:** BI storytelling + business decisions
 
 </td>
 <td width="50%">
 
 ### 🍷 [Wine Market Analysis SQL](https://github.com/JonbeshAhmadzai/Wine-Market-Analysis-SQL)
 
-**SQL · SQLite · Python · Matplotlib · Streamlit**
+**SQL · Python · Streamlit · Visualization**
 
-SQL-driven Vivino market analysis project that transforms raw wine data into business insights, visualizations, exported tables, and an interactive Streamlit dashboard.
+Analyzed Vivino wine market data with SQL queries, Python charts, exported insights, and an interactive Streamlit dashboard.
 
-**Highlights:**
-- Business logic written in dedicated SQL files
-- Answers questions about top wines, country prioritization, winery awards, keyword clusters, ratings, popularity, and Cabernet recommendations
-- Python scripts generate reusable charts and CSV outputs
-- Streamlit dashboard presents final insights for stakeholders
-- Demonstrates SQL → analysis → visualization → dashboard workflow
+**Focus:** SQL analysis + dashboarding
 
 </td>
 </tr>
@@ -185,7 +157,7 @@ SQL-driven Vivino market analysis project that transforms raw wine data into bus
 
 ### 🧪 More Data Science Work
 
-- 🧑‍🤝‍🧑 [HCMST Relationship Survival Analysis](https://github.com/JonbeshAhmadzai/hcmst-relationship-survival-analysis) — clustering and logistic regression project using the HCMST 2017–2022 longitudinal survey to study how couples meet and whether relationship quality/structure predicts long-term survival.
+- 🧑‍🤝‍🧑 [HCMST Relationship Survival Analysis](https://github.com/JonbeshAhmadzai/hcmst-relationship-survival-analysis) — clustering and logistic regression on a Stanford longitudinal relationship dataset.
 
 ---
 
