@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://linkedin.com/in/jonbesh-a-60b678109">
-    <img src="https://img.shields.io/badge/LinkedIn-Mohammad%20Jonbesh%20Ahmadzai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+    <img src="https://img.shields.io/badge/LinkedIn-%20Jonbesh%20Ahmadzai-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="https://jonbeshahmadzai-portfolio.netlify.app/">
     <img src="https://img.shields.io/badge/Portfolio-View%20My%20Work-B56576?style=for-the-badge&logo=netlify&logoColor=white" />
