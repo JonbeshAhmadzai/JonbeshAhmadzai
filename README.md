@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Mohammad Jonbesh Ahmadzai 👋</h1>
+<h1 align="center">Hi, I'm Jonbesh Ahmadzai 👋</h1>
 
 <h3 align="center">AI & Data Engineer · Data Pipelines · Machine Learning · Business Intelligence</h3>
 
