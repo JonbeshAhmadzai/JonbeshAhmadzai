@@ -160,23 +160,6 @@ Analyzed Vivino wine market data with SQL queries, Python charts, exported insig
 - 🧑‍🤝‍🧑 [HCMST Relationship Survival Analysis](https://github.com/JonbeshAhmadzai/hcmst-relationship-survival-analysis) — clustering and logistic regression on a Stanford longitudinal relationship dataset.
 
 ---
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=JonbeshAhmadzai&show_icons=true&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com?user=JonbeshAhmadzai&theme=tokyonight&hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JonbeshAhmadzai&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
 ## 🎯 Currently Learning
 
 <p>
